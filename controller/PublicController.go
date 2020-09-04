@@ -16,5 +16,6 @@ type PublicController struct {
 func (c *PublicController) Test(ctx *gin.Context) {
 	da, _ := code.RedisInit().Get("abc").Result()
 	fmt.Println(da)
+	
 	Success("数据", ctx)
 }

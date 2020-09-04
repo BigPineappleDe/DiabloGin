@@ -7,7 +7,7 @@ package config
 //核心配置
 const (
 	PORT            = 8080     //端口
-	LOGGING         = true     //日志模块开关
+	LOGGING         = false     //日志模块开关
 	LOGGINGFILEURL  = "/cache" //日志路径
 	LOGGINGDIRLOG   = "log"    //日常日志路径
 	LOGGINGDIRERROR = "error"  //错误日志路径

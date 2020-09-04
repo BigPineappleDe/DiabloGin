@@ -10,7 +10,7 @@ import (
 /**
 日志模块  消息  文件名  0保存到根目录
 */
-func SetLogger(msg string, fileName string,) {
+func SetLogger(msg string, fileName string) {
 	FileUrlDir := common.GetCurrentPath() + "/"
 	if config.ISLOGGINGDIROUT {
 		if config.ISLOGGINGDIR==""{
