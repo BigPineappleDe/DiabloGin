@@ -9,7 +9,7 @@ import (
 	"diabloGin/config"
 	"sync"
 )
-a
+
 //防止并发耗费资源 加入线程锁
 var db *gorm.DB
 var once sync.Once
